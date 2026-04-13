@@ -5,8 +5,8 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export default function Page() {
   return (
-    <div className="h-[40rem]  bg-black flex object-cover h-48 w-full  ">
-      <div className="w-full absolute inset-0 h-screen">
+    <div className="h-[40rem]  bg-black   ">
+      <div className="w-full absolute inset-0 h-screen flex object-fill h-48 w-full">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
